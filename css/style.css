@@ -4,9 +4,20 @@
   margin: 0;
 }
 
+@font-face {
+  font-family: 'Ancizar-Sans';
+  src: url('../fonts/Ancizar-Sans/AncizarSans-VariableFont_wght.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 /*#2089ef - blue */
 /*#d9f18a - yellow*/
 /*#ffa2e8 - pink*/
+
+body {
+  overflow-x: hidden;
+}
 
 #page-wrapper {
   position: relative;
@@ -50,9 +61,16 @@ nav {
 .nav-link {
   text-decoration: none;
   color: #FFA2E8;
-  font-family: "Ancizar Sans", sans-serif;
+  font-family: "Ancizar-Sans", sans-serif;
+  font-size: 1.5em;
 }
 
 .nav-links > li {
   list-style: none;
+}
+
+#hero {
+  width: 100vw;
+  height: 100vh;
+  background-color: #2089ef;
 }
