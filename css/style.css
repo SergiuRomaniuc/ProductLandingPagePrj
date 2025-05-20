@@ -24,11 +24,35 @@
   background-color: #2089ef;
 }
 
+.logo {
+  width: 60vw;
+}
+
 .logo > img {
-  width: 100%;
+  /*width: auto;*/
   height: 100%;
-  max-width: 300px;
+  max-width: 150px;
   margin-left: 20px;
   display: flex;
   justify-content: center;
+}
+
+nav {
+  display: block;
+}
+
+.nav-links {
+  width: 35vw;
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #FFA2E8;
+  font-family: "Ancizar Sans", sans-serif;
+}
+
+.nav-links > li {
+  list-style: none;
 }
