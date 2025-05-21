@@ -6,7 +6,7 @@
 
 @font-face {
   font-family: 'Ancizar-Sans';
-  src: url('../fonts/Ancizar-Sans/AncizarSans-VariableFont_wght.ttf') format('truetype');
+  src: url('../../fonts/Ancizar-Sans/AncizarSans-VariableFont_wght.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
