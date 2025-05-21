@@ -6,7 +6,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Product Landing Page</title>
   <link rel="stylesheet" href="src/css/style.css">
-
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+  />
 </head>
 <body>
 
@@ -29,19 +32,40 @@
         </ul>
       </nav>
     </header>
+
     <section id="hero">
-      <div class="photos-slider"></div>
+      <!-- Slider main container -->
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">Slide 1</div>
+          <div class="swiper-slide">Slide 2</div>
+          <div class="swiper-slide">Slide 3</div>
+          ...
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+
+        <!-- If we need scrollbar -->
+        <div class="swiper-scrollbar"></div>
+      </div>
       <form id="form" action="https://www.freecodecamp.com/email-submit">
         <input id="email" type="email" name="email" placeholder="Enter your email address" required>
         <input id="submit" type="submit" value="Submit">
       </form>
     </section>
+
     <div class="container">
       <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/LlwnwtuqPEU?si=HHZulS1RW4PqVLCb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </div>
   </div>
 
-
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 </body>
 
 </html>
