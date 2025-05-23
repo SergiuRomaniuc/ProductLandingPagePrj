@@ -1,5 +1,4 @@
 * {
-  /*border: 1px solid black;*/
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -11,10 +10,6 @@
   font-weight: normal;
   font-style: normal;
 }
-
-/*#2089ef - blue */
-/*#d9f18a - yellow*/
-/*#ffa2e8 - pink*/
 
 body, html {
   overflow-x: hidden;
@@ -41,7 +36,6 @@ body, html {
 }
 
 .logo > img {
-  /*width: auto;*/
   height: 100%;
   max-width: 150px;
   margin-left: 20px;
@@ -68,41 +62,4 @@ nav {
 
 .nav-links > li {
   list-style: none;
-}
-
-#hero {
-  width: 100vw;
-  height: 50vh;
-  margin-top: 75.75px;
-  background-color: #2089ef;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
-}
-
-.swiper {
-  width: 100%;
-  height: 100%;
-  max-width: 90%;
-}
-
-.swiper-wrapper {
-  height: 100%;
-  width: 100%;
-  display: flex;
-}
-
-.swiper-slide {
-  height: 100%;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.square {
-  width: 50px;
-  height: 50px;
-  background-color: #222;
 }
