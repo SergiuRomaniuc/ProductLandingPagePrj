@@ -33,27 +33,59 @@
       <h1>Contact Page</h1>
       <p class="main-heading">Let's Talk Sweet Business</p>
     </div>
-    <section class="contact-information">
-      <div class="secondary-heading">
+
+    <section class="contact-page-section">
+      <div class="contact-section-wrapper">
         <h2>Contact Information:</h2>
+
+        <div class="contact-message">
+          <h3>Get in Touch</h3>
+          <p>We'd love to hear from you! Whether you're curious about Cornetti, want to partner with us, or just want to share your ice cream stories, we're all ears.</p>
+        </div>
+
+        <div class="contact-details">
+          <p><strong>For General Inquiries:</strong></p>
+          <p>📧 <a href="mailto:hello@cornetti.md">hello@cornetti.md</a></p>
+          <p>📱 <a href="tel:+37369890053">+373 69890053</a></p>
+
+          <p><strong>For Business Partnerships:</strong></p>
+          <p>📧 <a href="mailto:partnerships@cornetti.md"> partnerships@cornetti.md</a></p>
+          <p>📱 <a href="tel:+37369898853">+373 69898853</a></p>
+
+          <p><strong>For Press & Media:</strong></p>
+          <p>📧 <a href="mailto:press@cornetti.md">press@cornetti.md</a></p>
+        </div>
       </div>
-      <div class="contact-message-information">
-        <p>Get in Touch</p>
-        <p>We'd love to hear from you! Whether you're curious about Cornetti, want to partner with us, or just want to share your ice cream stories, we're all ears.</p>
-      </div>
-      <div class="mail-phone-information">
-        <p>For General Inquiries:</p>
-        <p>📧<a href="mailto:hello@cornetti.md">hello@cornetti.md
-        </a></p><p class="phone-number"> 📱 +373 69890053</p>
+    </section>
 
-        <p>For Business Partnerships:</p>
-        <p>📧<a href="mailto:partnerships@cornetti.md"> partnerships@cornetti.md
-        </a></p><p class="phone-number"> 📱 +373 69898853</p>
+    <section class="contact-page-section">
+      <div class="contact-section-wrapper">
+        <h2>Contact Form:</h2>
 
-        <p>For Press & Media:</p>
-        <p>📧<a href="mailto:press@cornetti.md">press@cornetti.md
-        </a></p>
+        <div class="contact-message">
+          <h3>Send Us a Message</h3>
+        </div>
 
+        <form class="contact-form" action="#" method="POST">
+          <div class="form-group">
+            <label for="name" class="form-label">Name: <span class="required">*</span></label>
+            <input type="text" id="name" name="name" class="form-input" placeholder="Your name" required>
+          </div>
+
+          <div class="form-group">
+            <label for="email" class="form-label">Email: <span class="required">*</span></label>
+            <input type="email" id="email" name="email" class="form-input" placeholder="Your Email" required>
+          </div>
+
+          <div class="form-group">
+            <label for="message" class="form-label">Message: <span class="required">*</span></label>
+            <textarea id="message" name="message" class="form-input" rows="5" placeholder="Your Message" required></textarea>
+          </div>
+
+          <div class="form-action">
+            <button type="submit" class="form-submit">Send Message</button>
+          </div>
+        </form>
       </div>
     </section>
   </div>
