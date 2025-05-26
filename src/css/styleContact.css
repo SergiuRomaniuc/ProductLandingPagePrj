@@ -100,6 +100,7 @@ h1 {
 .main-heading {
   font-size: 2.5rem;
   font-family: 'Chewy', sans-serif;
+  color: #D3A67C;
 }
 
 .contact-page-section {
@@ -131,12 +132,14 @@ h2 {
   font-size: 2rem;
   font-family: 'Poppins', sans-serif;
   color: #2089ef;
-  padding: 5px 0;
+  margin-top: 24px;
+  margin-bottom: 16px;
 }
 
 h3 {
   font-size: 1.5rem;
-  padding-bottom: 3px;
+  margin-top: 20px;
+  margin-bottom: 12px;
 }
 
 .contact-message > p {
@@ -144,6 +147,11 @@ h3 {
   font-family: 'Americane', sans-serif;
   font-size: 1rem;
   text-align: center;
+}
+
+.contact-detail {
+  margin-top: 16px;
+  margin-bottom: 8px;
 }
 
 .contact-details > p > strong{
@@ -261,4 +269,17 @@ p > a:hover {
   margin-top: 5px;
   margin-left: 2px;
   box-shadow: 0 0;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.logo-tagline {
+  display: flex;
+}
+
+.logo {
+  display: grid;
 }
