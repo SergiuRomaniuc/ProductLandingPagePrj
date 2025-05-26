@@ -18,6 +18,8 @@
 
 body, html {
   overflow-x: hidden;
+  background-color: #fffaef;
+
 }
 
 #page-wrapper {
