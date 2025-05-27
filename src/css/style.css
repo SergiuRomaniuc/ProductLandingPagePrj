@@ -19,7 +19,6 @@
 body, html {
   overflow-x: hidden;
   background-color: #fffaef;
-
 }
 
 #page-wrapper {
@@ -29,10 +28,10 @@ body, html {
 #header {
   position: fixed;
   top: 0;
-  min-height: 75px;
+  min-height: 63px;
   width: 100%;
   padding: 0 20px;
-  display :flex;
+  display: flex;
   justify-content: space-around;
   align-items: center;
   background-color: #2089ef;

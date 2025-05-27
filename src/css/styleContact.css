@@ -26,7 +26,6 @@
 body, html {
   overflow-x: hidden;
   background-color: #fffaef;
-
 }
 
 #page-wrapper {
@@ -38,10 +37,8 @@ body, html {
   top: 0;
   min-height: 63px;
   width: 100%;
-  padding-right: 20px;
-  padding-left: 20px;
-  /*padding-bottom: 12px;*/
-  display :flex;
+  padding: 0 20px;
+  display: flex;
   justify-content: space-around;
   align-items: center;
   background-color: #2089ef;
@@ -158,7 +155,7 @@ h3 {
   font-size: 1.2rem;
 }
 
-a {
+.contact-details > p > a {
   text-decoration: none;
   color: #2089ef;
 }
@@ -308,7 +305,7 @@ footer {
   margin: 0;
 }
 
-.logo {
+.footer-logo {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -316,13 +313,41 @@ footer {
   margin: 0 20px;
 }
 
-.logo h4 {
+.footer-logo h4 {
   color: #8CC4F7;
   font-family: 'Poppins', sans-serif;
 }
 
-.logo h5 {
+.footer-logo h5 {
   color: #8CC4F7;
   font-family: 'Chewy', sans-serif;
   font-size: 0.8rem;
+}
+
+.footer-links {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+  padding: 2rem 0;
+}
+
+.group-name h4 {
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 700;
+  font-family: 'Poppins', sans-serif;
+  margin: 0 0 6px 0;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-link {
+  color: #fffaef !important;
+  text-decoration: none;
+  font-family: 'Americane', sans-serif;
+  font-size: 0.85rem;
+  padding: 2px 0;
 }
