@@ -41,7 +41,9 @@ body, html {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  align-items: center;
   background-color: #2089ef;
+  z-index: 1000;
 }
 
 .logo {
@@ -350,4 +352,57 @@ footer {
   font-family: 'Americane', sans-serif;
   font-size: 0.85rem;
   padding: 2px 0;
+}
+
+.footer-link:hover {
+  opacity: 0.7;
+}
+
+.social-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.social-links-title {
+  margin: 1rem 0;
+}
+
+.social-links-title h4 {
+  font-size: 1.5rem;
+  color: #fffaef;
+  font-family: 'Poppins', sans-serif
+}
+
+.social-logos-links {
+  margin: 10px 0;
+}
+
+.social-logos-links img {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  margin: 0 10px;
+}
+
+.social-logos-links img:hover {
+  opacity: 0.7;
+}
+
+.copyright {
+  text-align: center;
+}
+
+.copyright p {
+  color: #fffaef;
+}
+
+.copyright a {
+  text-decoration: none;
+  color: #fffaef;
+}
+
+.copyright a:hover {
+  text-decoration: underline;
 }
