@@ -79,6 +79,62 @@ nav {
   list-style: none;
 }
 
+#page-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+/*title section*/
+
+.page-title {
+  margin: 76px 0;
+  width: 100%;
+}
+
+.title-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title-wrapper h1 {
+  font-size: 4.5rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+.title-wrapper p {
+  font-size: 2.5rem;
+  font-family: 'Chewy', sans-serif;
+  color: #D3A67C;
+}
+
+/*blog posts*/
+
+.blog-section {
+  display: grid;
+  max-width: 1200px;
+  width: 90%;
+  margin: 0 auto;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 2rem;
+  padding: 2rem 0;
+}
+
+.blogs-wrapper {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #2089ef;
+  border-radius: 10px;
+}
+
+.img-wrapper {
+  width: 100%;
+}
+
+.blog {
+  margin: 1rem auto;
+}
+
 /*footer*/
 
 footer {
