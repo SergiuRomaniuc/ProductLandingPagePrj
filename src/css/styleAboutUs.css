@@ -80,6 +80,86 @@ nav {
   list-style: none;
 }
 
+
+/*title section*/
+
+.page-title {
+  margin: 76px 0;
+  width: 100%;
+}
+
+.title-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title-wrapper h1 {
+  font-size: 4.5rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+.title-wrapper p {
+  font-size: 2.5rem;
+  font-family: 'Chewy', sans-serif;
+  color: #D3A67C;
+}
+
+/*story section*/
+
+.about-us {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-us-wrapper {
+  width: 90%;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.about-us-section-title {
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  margin-bottom: 0.5rem;
+}
+
+.about-us-section-title h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2rem;
+  color: #4DA1F2;
+}
+
+.about-us-text {
+  width: 100%;
+}
+
+.about-us-text p {
+  margin-left: 10px;
+  font-family: 'Americane', sans-serif;
+  font-size: 1.1rem;
+}
+
+.about-us-text ul {
+  margin-left: 2rem;
+}
+
+.about-us-text ul li {
+  padding: 5px 0;
+  font-family: 'Americane', sans-serif;
+  font-size: 1.1rem;
+}
+
+.about-us-text ul li strong {
+  color: #D3A67C;
+}
+
 /*footer*/
 
 footer {

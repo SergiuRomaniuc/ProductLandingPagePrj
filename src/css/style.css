@@ -83,6 +83,8 @@ nav {
   list-style: none;
 }
 
+/*swiper*/
+
 #hero {
   width: 100vw;
   height: 50vh;
@@ -109,9 +111,8 @@ nav {
 .swiper-slide {
   height: 100%;
   width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: 1fr;
 }
 
 .square {
@@ -119,6 +120,7 @@ nav {
   height: 50px;
   background-color: #222;
 }
+
 
 
 /*footer*/
