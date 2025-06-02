@@ -88,31 +88,30 @@ nav {
 #hero {
   width: 100vw;
   height: 50vh;
-  margin-top: 75.75px;
+  margin-top: 75px;
   background-color: #2089ef;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
+  /*display: flex;*/
+  /*align-items: center;*/
+  /*justify-content: center;*/
+  /*overflow: hidden;*/
 }
 
 .swiper {
-  width: 100%;
+  /*max-width: 90%;*/
   height: 100%;
-  max-width: 90%;
+  overflow: hidden;
+
 }
 
 .swiper-wrapper {
-  height: 100%;
   width: 100%;
-  display: flex;
+  /*display: flex;*/
+  /*justify-content: center;*/
 }
 
 .swiper-slide {
   height: 100%;
   width: 100%;
-  display: grid;
-  grid-template-columns: 1fr;
 }
 
 .square {
