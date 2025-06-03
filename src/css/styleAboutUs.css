@@ -40,11 +40,18 @@ body, html {
   min-height: 75px;
   width: 100%;
   padding: 0 20px;
-  display :flex;
+  display: flex;
   justify-content: space-around;
   align-items: center;
   background-color: #2089ef;
   z-index: 1000;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 1400px;
 }
 
 .logo {

@@ -45,6 +45,13 @@ body, html {
   z-index: 1000;
 }
 
+.navbar-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 1400px;
+}
+
 .logo {
   width: 60vw;
   display: flex;
