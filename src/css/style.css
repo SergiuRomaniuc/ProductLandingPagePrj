@@ -96,7 +96,8 @@ nav {
   width: 100vw;
   height: 50vh;
   margin-top: 75px;
-  background-color: #2089ef;
+  /*background-color: #2089ef;*/
+  background-color: #39cba9;
 
   display: flex;
   align-items: center;
@@ -106,7 +107,7 @@ nav {
 .swiper {
   width: 90%;
   height: 100%;
-  overflow: hidden;
+  /*overflow: hidden;*/
 
 }
 
@@ -115,20 +116,34 @@ nav {
 }
 
 .swiper-slide {
-  width: 100%;
-  height: 100%;
+  /*width: 100%;*/
+  /*height: 100%;*/
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
+  flex-direction: row;
+  padding: 0 5%;
+  gap: 20px;
+  box-sizing: border-box;
+  flex-wrap: nowrap;
 }
 
 .slide-component {
+  flex: 1;
+  max-width: 50%;
   margin: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
+}
+
+.slide-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
 }
 
 .slide-component form {
@@ -137,13 +152,9 @@ nav {
   gap: 10px;
 }
 
-.square {
-  width: 50px;
-  height: 50px;
-  background-color: #222;
+.slide-one .slide-flex .slide-component img {
+  width: 100%;
 }
-
-
 
 /*footer*/
 
